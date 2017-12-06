@@ -1,0 +1,37 @@
+{
+  "name": "node-typescript-jest-boilerplate",
+  "version": "0.0.1",
+  "description": "NodeJS typescript + jest boilerplate",
+  "keywords": [
+    "boilerplate",
+    "typescript",
+    "jest"
+  ],
+  "author": "Brian Schlenker <bschlenk@umich.edu>",
+  "license": "MIT",
+  "repository": "bschlenk/node-typescript-jest-boilerplate",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "watch": "nodemon",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.55",
+    "jest": "^21.2.1",
+    "nodemon": "^1.12.5",
+    "ts-jest": "^21.2.4",
+    "typescript": "^2.6.2"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "transform": {
+      "\\.ts$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "/__tests__/.*\\.test.(ts|js)$"
+  }
+}
