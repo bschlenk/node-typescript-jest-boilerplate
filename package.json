@@ -15,7 +15,9 @@
     "test": "jest",
     "coverage": "jest --coverage",
     "watch": "nodemon",
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "npm run build",
+    "publishOnly": "npm run test"
   },
   "devDependencies": {
     "@types/node": "^8.0.55",
