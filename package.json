@@ -41,7 +41,8 @@
     "collectCoverage": true,
     "mapCoverage": true,
     "collectCoverageFrom": [
-      "src/**/*.ts"
+      "src/**/*.ts",
+      "!**/*.d.ts"
     ]
   }
 }
