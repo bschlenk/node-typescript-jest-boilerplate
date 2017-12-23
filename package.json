@@ -21,6 +21,7 @@
     "publishOnly": "npm run test"
   },
   "devDependencies": {
+    "@types/jest": "^21.1.9",
     "@types/node": "^8.0.55",
     "jest": "^21.2.1",
     "nodemon": "^1.12.5",
@@ -39,7 +40,7 @@
     "collectCoverage": true,
     "mapCoverage": true,
     "collectCoverageFrom": [
-        "src/**/*.ts"
+      "src/**/*.ts"
     ]
   }
 }
