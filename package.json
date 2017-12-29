@@ -19,7 +19,7 @@
     "watch": "nodemon",
     "build": "tsc",
     "prepare": "npm run build",
-    "publishOnly": "npm run test"
+    "prepublishOnly": "npm run test"
   },
   "devDependencies": {
     "@types/jest": "^21.1.9",
