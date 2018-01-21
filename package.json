@@ -18,8 +18,7 @@
     "coverage:open": "open ./coverage/lcov-report/index.html",
     "watch": "nodemon",
     "build": "tsc",
-    "prepare": "npm run build",
-    "prepublishOnly": "npm run test"
+    "prepublishOnly": "npm run test && npm run build"
   },
   "devDependencies": {
     "@types/jest": "^21.1.9",
