@@ -27,22 +27,5 @@
     "nodemon": "^1.15.1",
     "ts-jest": "^22.4.0",
     "typescript": "^2.7.2"
-  },
-  "jest": {
-    "moduleFileExtensions": [
-      "ts",
-      "js",
-      "json",
-      "node"
-    ],
-    "transform": {
-      "\\.ts$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
-    },
-    "testRegex": "/__tests__/.*\\.test\\.(ts|js)$",
-    "collectCoverage": true,
-    "collectCoverageFrom": [
-      "src/**/*.ts",
-      "!**/*.d.ts"
-    ]
   }
 }
