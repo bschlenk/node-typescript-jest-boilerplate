@@ -13,8 +13,9 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watch",
+    "test": "NODE_ENV=development jest",
+    "test:coverage": "npm run test -- --coverage",
+    "test:watch": "npm run test -- --watch",
     "coverage:open": "open ./coverage/lcov-report/index.html",
     "watch": "nodemon",
     "build": "tsc",
