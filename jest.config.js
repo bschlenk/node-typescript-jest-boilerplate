@@ -6,7 +6,7 @@ module.exports = {
     'node'
   ],
   transform: {
-    '\\.ts$': '<rootDir>/node_modules/ts-jest/preprocessor.js'
+    '^.+\\.ts$': 'ts-jest',
   },
   testRegex: '/__tests__/.*\\.test\\.(ts|js)$',
   collectCoverageFrom: [
