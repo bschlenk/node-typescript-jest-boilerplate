@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "tslint-config-airbnb"
+  ],
+
+  "rules": {
+    "trailing-comma": [
+      true,
+      {
+        // required for typescript 2.9
+        "esSpecCompliant": true,
+        "multiline": "always",
+        "singleline": "never"
+      }
+    ]
+  }
+}
