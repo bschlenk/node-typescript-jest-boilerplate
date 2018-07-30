@@ -13,15 +13,16 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
+    "lint": "tslint -p .",
+    "lint:fix": "npm run lint -- --fix",
     "test": "NODE_ENV=development jest",
     "test:coverage": "npm run test -- --coverage",
     "test:watch": "npm run test -- --watch",
-    "lint": "tslint -p .",
-    "lint:fix": "npm run lint -- --fix",
     "coverage:open": "open ./coverage/lcov-report/index.html",
+    "lint-test": "npm run lint && npm run test",
     "watch": "nodemon",
     "build": "tsc",
-    "prepublishOnly": "npm run test && npm run build"
+    "prepublishOnly": "npm run lint-test && npm run build"
   },
   "devDependencies": {
     "@types/jest": "^23.0.0",
