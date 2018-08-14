@@ -5,6 +5,7 @@
     "noImplicitAny": true,
     "sourceMap": true,
     "declaration": true,
+    "resolveJsonModule": true,
     "outDir": "./dist"
   },
   "exclude": [
