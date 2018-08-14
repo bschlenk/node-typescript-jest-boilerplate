@@ -19,7 +19,7 @@
     "test:coverage": "npm run test -- --coverage",
     "test:watch": "npm run test -- --watch",
     "coverage:open": "open ./coverage/lcov-report/index.html",
-    "lint-test": "npm run lint && npm run test",
+    "lint-test": "npm run lint && npm run test:coverage",
     "watch": "nodemon",
     "build": "tsc",
     "prepublishOnly": "npm run lint-test && npm run build"
