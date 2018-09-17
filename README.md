@@ -1,7 +1,5 @@
 # node-typescript-jest-boilerplate
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/bschlenk/node-typescript-jest-boilerplate.svg)](https://greenkeeper.io/)
-
 Boilerplate for a node server written in typescript w/ jest testrunner.
 
 ## Usage
