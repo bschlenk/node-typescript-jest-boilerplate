@@ -12,6 +12,9 @@
   "repository": "bschlenk/node-typescript-jest-boilerplate",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "lint": "tslint -p .",
     "lint:fix": "npm run lint -- --fix",
