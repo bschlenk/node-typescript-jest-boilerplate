@@ -24,14 +24,14 @@
     "prepublishOnly": "npm run test && npm run build"
   },
   "devDependencies": {
-    "@types/jest": "^23.3.1",
-    "@types/node": "^10.9.2",
-    "jest": "^23.5.0",
-    "nodemon": "^1.18.3",
-    "ts-jest": "^23.1.4",
+    "@types/jest": "^23.3.10",
+    "@types/node": "^10.12.12",
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.7",
+    "ts-jest": "^23.10.5",
     "ts-node": "^7.0.1",
     "tslint": "^5.11.0",
-    "tslint-config-airbnb": "^5.10.0",
-    "typescript": "^3.0.1"
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.2.1"
   }
 }
