@@ -26,6 +26,7 @@
     "build": "tsc",
     "prepublishOnly": "npm run test && npm run build"
   },
+  "dependencies": {},
   "devDependencies": {
     "@types/jest": "^24.0.0",
     "@types/node": "^11.10.5",
