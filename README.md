@@ -17,6 +17,6 @@ Update [package.json](package.json) as you see fit.
 If this is for a library only, then chances are you don't need nodemon.
 You can make the following changes to remove it:
 
-* Delete `nodemon.json`
-* Remove `watch` from `package.json` scripts
-* Remove `nodemon` from `package.json` devDependencies
+- Delete `nodemon.json`
+- Remove `watch` from `package.json` scripts
+- Remove `nodemon` from `package.json` devDependencies
