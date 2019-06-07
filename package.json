@@ -17,6 +17,7 @@
     "!**/__tests__/**/*"
   ],
   "scripts": {
+    "clean": "rm -rf build coverage",
     "lint": "tslint -p . --format stylish",
     "lint:fix": "npm run lint -- --fix",
     "test:unit": "jest",
