@@ -1,6 +1,7 @@
 # node-typescript-jest-boilerplate
 
-Boilerplate for a node server written in typescript w/ jest testrunner.
+Boilerplate for a node server or library written in typescript,
+using jest as the test runner.
 
 ## Usage
 
