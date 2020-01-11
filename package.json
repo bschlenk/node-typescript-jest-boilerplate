@@ -18,7 +18,7 @@
   ],
   "scripts": {
     "clean": "rm -rf build coverage",
-    "lint": "tslint -p . --format stylish",
+    "lint": "eslint --ext .ts src",
     "lint:fix": "npm run lint -- --fix",
     "test:unit": "jest",
     "test:watch": "npm run jest -- --watch",
@@ -33,6 +33,11 @@
     "@commitlint/config-conventional": "^8.3.4",
     "@types/jest": "^24.0.25",
     "@types/node": "^12.0.7",
+    "@typescript-eslint/eslint-plugin": "^2.15.0",
+    "@typescript-eslint/parser": "^2.15.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-import": "^2.20.0",
     "husky": "^4.0.6",
     "jest": "^24.9.0",
     "lint-staged": "^9.5.0",
@@ -40,8 +45,6 @@
     "prettier": "^1.19.1",
     "ts-jest": "^24.3.0",
     "ts-node": "^8.6.1",
-    "tslint": "^5.20.1",
-    "tslint-config-airbnb": "^5.11.2",
     "typescript": "^3.7.4"
   },
   "husky": {
@@ -51,7 +54,12 @@
     }
   },
   "lint-staged": {
-    "*.{ts,json,md}": [
+    "*.ts": [
+      "eslint --fix",
+      "prettier --write",
+      "git add"
+    ],
+    "*.{json,md}": [
       "prettier --write",
       "git add"
     ]
