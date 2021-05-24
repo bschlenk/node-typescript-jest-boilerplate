@@ -44,7 +44,7 @@
     "nodemon": "^2.0.7",
     "prettier": "^2.2.1",
     "ts-jest": "^26.5.2",
-    "ts-node": "^9.1.1",
+    "ts-node": "^10.0.0",
     "typescript": "^4.2.2"
   }
 }
